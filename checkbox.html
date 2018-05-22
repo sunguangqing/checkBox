@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 根据浏览器的屏幕大小自适应的展现合适的效果 -->
+    <meta name="applicable-device" content="pc,mobile"/>
+    <!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!--自动选择更好的浏览器-->
+    <meta name="renderer" content="webkit">
+    <title>复选框</title>
+    <link href="css/checkbox.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="wrap">
+    <p>单个复选框 - 记住密码</p>
+    <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />记住密码</label>
+</div>
+
+<div class="wrap">
+    <p>带有全选按钮的复选框 - 选择你喜欢的歌词</p>
+    <div class="checked-all">
+        <label class="checkedBox"><i></i><input class="checkedInput checkedAll" type="checkbox" />全选</label>
+    </div>
+    <div class="checked-list_01">
+        <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />就这样匆匆你走了，留给我一生牵挂</label><br />
+        <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />人世间有百媚千红，我独爱爱你那一种</label><br />
+        <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />从此以后我都不敢抬头看，仿佛我的天空失去了颜色</label><br />
+        <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />曾经与你有的梦，今后要向谁诉说</label>
+    </div>
+</div>
+
+<div class="wrap">
+    <p>带有二级全选按钮的复选框 - 选择你喜欢事物</p>
+    <div class="checked-all">
+        <label class="checkedBox"><i></i><input class="checkedInput checkedAll_2" type="checkbox" />全选</label>
+    </div>
+    <div class="checked-list_wrap_02">
+        <div class="checked-list_02">
+            <label class="checkedBox"><i></i><input class="checkedInput checkedAll_list_02" type="checkbox" />所有电子产品</label>
+            <div class="list_02">
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />数码相机</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />手机</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />蓝牙音响</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />平板</label>
+            </div>
+        </div>
+        <div class="checked-list_02">
+            <label class="checkedBox"><i></i><input class="checkedInput checkedAll_list_02" type="checkbox" />所有歌手</label>
+            <div class="list_02">
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />许嵩</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />林俊杰</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />周杰伦</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />莫文蔚</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="wrap">
+    <p>带有两个全选按钮的二级全选按钮的复选框 - 选择你喜欢事物</p>
+    <div class="checked-all">
+        <label class="checkedBox"><i></i><input class="checkedInput checkedAll_3" type="checkbox" />全选</label>
+    </div>
+    <div class="checked-list_wrap_03">
+        <div class="checked-list_03">
+            <label class="checkedBox"><i></i><input class="checkedInput checkedAll_list_03" type="checkbox" />所有水果</label>
+            <div class="list_03">
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />西瓜</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />香蕉</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />苹果</label>
+            </div>
+        </div>
+        <div class="checked-list_03">
+            <label class="checkedBox"><i></i><input class="checkedInput checkedAll_list_03" type="checkbox" />所有电子产品</label>
+            <div class="list_03">
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />数码相机</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />手机</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />蓝牙音响</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />平板</label>
+            </div>
+        </div>
+        <div class="checked-list_03">
+            <label class="checkedBox"><i></i><input class="checkedInput checkedAll_list_03" type="checkbox" />所有歌手</label>
+            <div class="list_03">
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />许嵩</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />林俊杰</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />周杰伦</label><br />
+                <label class="checkedBox"><i></i><input class="checkedInput" type="checkbox" />莫文蔚</label>
+            </div>
+        </div>
+    </div>
+    <div class="checked-all">
+        <label class="checkedBox"><i></i><input class="checkedInput checkedAll_3" type="checkbox" />全选</label>
+    </div>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/checkbox.js"></script>
+</body>
+</html>

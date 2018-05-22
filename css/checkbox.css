@@ -1,0 +1,110 @@
+/*reset css*/
+body, div, p, input, button, textarea, select, img, h1, h2, h3, h4, h5, h6, dl, dd, dt, ul, ol, li, a, em, i,
+table, tbody, thead, th, td, em {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul, ol, li {
+    list-style: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, textarea, select, button, img {
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+:focus {
+    outline: none;
+}
+/*浮动*/
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/*清除浮动*/
+.clearfix {
+    zoom: 1;
+    clear: both;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+/*行内元素*/
+.inline, span, a, b, i, em {
+    display: inline-block;
+}
+/*按钮*/
+[class$="-btn"] {
+    cursor: pointer;
+}
+
+/*开始*/
+body{
+    font-size: 15px;
+    color: #888;
+    background-color: #f5f5f5;
+    padding-top: 60px;
+}
+.wrap{
+    width: 900px;
+    line-height: 30px;
+    background-color: #fff;
+    margin: 15px auto;
+    padding: 20px;
+}
+.wrap p{
+    font-weight: bold;
+    line-height: 35px;
+    color: #1098ed;
+}
+[class ^= 'checked-list']{
+    padding-left: 25px;
+}
+[class ^= 'checked-list_wrap']{
+    padding-left: 0;
+}
+.wrap [class ^= 'list']{
+    padding-left: 25px;
+}
+/*勾选按钮*/
+.checkedBox{
+    cursor: pointer;
+}
+.checkedBox i{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #d9d9d9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;;
+    vertical-align: text-bottom;
+}
+.checkedBox i.checked{
+    border: 0;
+    background: url("../images/login-sprite.png") no-repeat -23px -42px;
+}
+.checkedBox input{
+    opacity: 0;
+    margin-left: -6px;
+}
