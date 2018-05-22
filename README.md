@@ -1,6 +1,6 @@
 ### 复选框/带全选按钮的复选框/带二级全选按钮的复选框/带有两个全选按钮的二级全选按钮的复选框
 
-https://github.com/sunguangqing/checkBox/blob/master/checkbox.html
+https://sunguangqing.github.io/checkBox/checkbox.html
 
 ### 复选框
 #### `HTML结构：`
