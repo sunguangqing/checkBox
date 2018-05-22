@@ -152,8 +152,4 @@ $(function () {
     checkInputSolo_02(".checked-list_03", ".list_03 .checkedInput", ".checkedAll_list_03");
     // 带有全选按钮的复选框  用这第二个方法也可以实现
     // checkInputSolo_02("", ".checked-list_01 .checkedInput", ".checkedAll");
-
-
-
-
 });
