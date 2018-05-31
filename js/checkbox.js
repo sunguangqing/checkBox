@@ -112,10 +112,8 @@ $(function () {
             var checked = $(this).prop("checked");
             if(checked){
                 $(this).siblings("i").addClass("checked");
-                $(this).parents(".checked-list").addClass("active");
             }else {
                 $(this).siblings("i").removeClass("checked");
-                $(this).parents(".checked-list").removeClass("active");
             }
             var checkedAll = [],
                 _parents;
