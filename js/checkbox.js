@@ -77,18 +77,18 @@ $(function () {
             if(bool){
                 if(checked){
                     $(selector).prop("checked", true).siblings("i").addClass("checked");
-                    choice.prop("checked", true).siblings("i").addClass("checked").parents(".checked-list").addClass("active");
+                    choice.prop("checked", true).siblings("i").addClass("checked");
                 }else {
                     $(selector).prop("checked", false).siblings("i").removeClass("checked");
-                    choice.prop("checked", false).siblings("i").removeClass("checked").parents(".checked-list").removeClass("active");
+                    choice.prop("checked", false).siblings("i").removeClass("checked");
                 }
             }else {
                 if(checked){
                     $(this).siblings("i").addClass("checked");
-                    choice.prop("checked", true).siblings("i").addClass("checked").parents(".checked-list").addClass("active");
+                    choice.prop("checked", true).siblings("i").addClass("checked");
                 }else {
                     $(this).siblings("i").removeClass("checked");
-                    choice.prop("checked", false).siblings("i").removeClass("checked").parents(".checked-list").removeClass("active");
+                    choice.prop("checked", false).siblings("i").removeClass("checked");
                 }
             }
         });
